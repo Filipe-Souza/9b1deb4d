@@ -72,4 +72,20 @@ A janela **NetPlay** será aberta, esse é o lobby do servidor. Todos os jogador
   1. Clique no botão **Copiar** para copiar seu endereço de IP externo e compartilhe com quem irá conectar;
   2. Somente clique no botão **Start** quando TODOS os jogadores estiverem conectados;
 
+![](passo11.png)
 
+### Cliente (quem entrar na partida)
+
+Abra o Dolphin, e navegue até o menu **Ferramentas** > **Iniciar NetPlay**
+
+![](passo9.png)
+
+Na janela **Configurar Netplay** siga as instruções abaixo:
+
+  1. No campo **Tipo de Conexão**, selecione **Conexão Direta**;
+  2. No campo **Apelido** coloque um nome para que seja identificavel para o convidado;
+  3. Selecione a aba **Conectar**;
+  4. Coloque o endereço de IP que o servidor compartilhou com o hospedeiro, mantenha a porta como **2626**;
+  5. Clique no botão **Conectar** assim que o hospedeiro abrir o lobby. Espere alguns segundos para realizar a conexão;
+ 
+![](passo12.png)
