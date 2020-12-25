@@ -29,10 +29,14 @@ Na mesma janela, clique no botão **Permitir outro aplicativo**
 Na janela **Adicionar aplicativo**, clique no botão **Procurar** e procure pelo arquivo executável "Dolphin.exe" (o mesmo utilizado para abrir o emulador)
 ![](passo4.png)
 
-Depois de selecionar o arquivo executável, clique no botão **Adicionar**
+O executável aparecerá na lista de adições:
 ![](passo5.PNG)
 
-O executável do Dolphin será adicionado a lista de exceções, porém na lista, existem as colunas **Privada** e **Pública** com as caixas de marcação. Marque a caixa da coluna **Privada** na linha do Dolphin
+Depois de selecionar o arquivo executável, clique no botão **Adicionar**
 ![](passo6.png)
 
+O executável do Dolphin será adicionado a lista de exceções, porém na lista, existem as colunas **Privada** e **Pública** com as caixas de marcação. Marque a caixa da coluna **Privada** na linha do Dolphin
+![](passo7.png)
+
 Clique no botão **OK** para confirmar as alterações
+![](passo8.png)
