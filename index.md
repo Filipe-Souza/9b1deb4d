@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Bem vindo
 
-You can use the [editor on GitHub](https://github.com/Filipe-Souza/9b1deb4d/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Usando o Dolphin Netplay, versão resumida
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requisitos obrigatórios:
 
-### Markdown
+  * Todos (clientes e servidor) devem usar a mesma versão do Dolphin. Isso é um pré requisito do desenvolvedor;
+  * A mesma ROM deverá ser utilizada para evitar problemas de compatibilidade (utilize somente cópias legalizadas);
+  * Por enquanto, liberar o Dolphin no firewall do Windows foi a unica forma que eu encontrei de fazer o Netplay funcionar corretamente/sem interrupções;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Configurando o Firewall do Windows
 
-```markdown
-Syntax highlighted code block
+1 - Abrindo a configuração especifica do firewall
 
-# Header 1
-## Header 2
-### Header 3
+Acesse o menu iniciar e digite "Firewall" na busca. Selecione o item com o resultado **Permitir um aplicativo pelo Firewall do Windows**. Talvez sejam necessárias permissões de administrador
 
-- Bulleted
-- List
+1.5 Opcional - Caso nunca tenha configurado o firewall
 
-1. Numbered
-2. List
+Na janela que for aberta, pode ser necessário clicar no botão **Alterar configurações** no canto superior direito. Clique no botão para liberar as demais configurações
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+2 - Adicionando o Dolphin como exceção ao firewall
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Na mesma janela, clique no botão **Permitir outro aplicativo**
 
-### Jekyll Themes
+Na janela **Adicionar aplicativo**, clique no botão **Procurar** e procure pelo arquivo executável "Dolphin.exe" (o mesmo utilizado para abrir o emulador)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Filipe-Souza/9b1deb4d/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Depois de selecionar o arquivo executável, clique no botão **Adicionar**
 
-### Support or Contact
+O executável do Dolphin será adicionado a lista de exceções, porém na lista, existem as colunas **Privada** e **Pública** com as caixas de marcação. Marque a caixa da coluna **Privada** na linha do Dolphin
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Clique no botão **OK** para confirmar as alterações
